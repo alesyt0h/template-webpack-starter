@@ -16,11 +16,11 @@ npm install webpack webpack-cli --save-dev
 
 ## ❌ ReferenceError: regeneratorRuntime ❌
 ```
-npm install --save @babel/polyfill
+npm i regenerator-runtime --save
 ```
 ```javascript
 module.exports = {
-    entry: ["@babel/polyfill","./src/index.js"],
+    entry: ['regenerator-runtime/runtime','./src/index.js'],
 }
 ```
 
