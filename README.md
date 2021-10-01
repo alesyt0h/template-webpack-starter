@@ -14,7 +14,7 @@ npm install webpack webpack-cli --save-dev
 },
 ```
 
-## ❌ ReferenceError: regeneratorRuntime
+## ❌ ReferenceError: regeneratorRuntime ❌
 ```
 npm install --save @babel/polyfill
 ```
